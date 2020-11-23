@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#root{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    font-size: 10vw;
+    justify-content: center;
+    align-items: center;
+}
+#root.day{
+    background-color: lightyellow;
+    color: darkorange;
+}
+#root.night{
+    background-color: darkblue;
+}
